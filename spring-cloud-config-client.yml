@@ -1,6 +1,6 @@
 ﻿#spring-cloud-config-client /idea中模块的配置文件
 server:
-  port: 8011
+  port: 1011
 spring:
   profiles: dev
   application:
@@ -11,7 +11,7 @@ eureka:
       defaultZone: http://eureka-dev1000.com:1000/eureka/
 ---
 server:
-  port: 8012
+  port: 1012
 spring:
   profiles: test
   application:
