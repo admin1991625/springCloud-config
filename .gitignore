@@ -1,4 +1,4 @@
-#需要过滤的文件格式1
+#需要过滤的文件格式
 # Compiled class file
 target/
 !.mvn/wrapper/maven-wrapper.jar
