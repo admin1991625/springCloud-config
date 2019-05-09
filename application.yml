@@ -9,14 +9,14 @@ spring:
 spring:
   profiles: dev
   application:
-    name: springCloud-config-config-dev
+    name: config-dev
 
 ---
 #测试环境配置
 spring:
   profiles:
   application:
-    name: springCloud-config-config-test
+    name: config-test
 #请保存为UTF-8编码格式
 
   
