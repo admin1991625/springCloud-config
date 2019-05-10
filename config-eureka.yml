@@ -1,7 +1,7 @@
 ﻿#激活使用的模块remote use
 spring:
   profiles:
-    active: test
+    active: dev
 ---
 #服务注册中心2001-dev开发模块配置
 server:
@@ -22,18 +22,18 @@ eureka:
 ---
 
 #服务注册中心200-test测试模块1配置
-server:
-  port: 2001
-spring:
-profiles: test
-application:
-  name: config-eureka
-
-eureka:
-  instance:
-    hosthome: eureka2001.com
-  client.register-with-eureka: false
-  client.fetch-registry: false
-  client:
-    service-url:
-      defaultZone: defaultZone: http://eureka1000.com:1000/eureka/,http://eureka1001.com:1001/eureka/
+#server:
+#  port: 2001
+#spring:
+#profiles: test
+#application:
+#  name: config-eureka
+#
+#eureka:
+#  instance:
+#    hosthome: eureka2001.com
+#  client.register-with-eureka: false
+#  client.fetch-registry: false
+#  client:
+#    service-url:
+#      defaultZone: defaultZone: http://eureka1000.com:1000/eureka/,http://eureka1001.com:1001/eureka/
