@@ -37,4 +37,4 @@ eureka:
   client.fetch-registry: false
   client:
     service-url:
-      defaultZone: http://eureka2001.com:2001/eureka/
+      defaultZone: http://eureka1000.com:1000/eureka/,http://eureka1001.com:1001/eureka/,
