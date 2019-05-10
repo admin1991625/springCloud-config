@@ -9,7 +9,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: config-eureka #域idea中一直,都为文件名却后缀
+    name: config-eureka
 
 eureka:
   instance:
@@ -28,7 +28,7 @@ server:
 spring:
   profiles: test
   application:
-    name: configEureka
+    name: config-eureka
 
 eureka:
   instance:
